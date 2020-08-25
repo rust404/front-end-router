@@ -1,0 +1,22 @@
+{
+  "name": "front-end-router",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "vue": "^2.6.12"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  },
+  "scripts": {
+    "js:history": "parcel js/history.html",
+    "react:history": "parcel react/history.html",
+    "vue:history": "parcel vue/history.html",
+    "js:hash": "parcel js/hash.html",
+    "react:hash": "parcel react/hash.html",
+    "vue:hash": "parcel vue/hash.html"
+  }
+}
